@@ -1,0 +1,6 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ErrorDocument 404 http://snzk.org/404.html
+ErrorDocument 500 http://snzk.org/500.html
+order deny,allow
